@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <title>Figma</title>
+  </head>
+  <body class="container">
+    <div class="sidebar">
+      <div class="logo"><img src="SaaS-Kit.png" alt="logo" /></div>
+      <div class="person">
+        <img class="woman" src="image2.png" alt="woman" />
+        <p class="p">
+          <a class="name" href="#">Sierra Ferguson</a>
+          <a class="gmail" href="#">s.ferguson@gmail.com</a>
+        </p>
+      </div>
+      <ul class="nav__list">
+        <li>
+          <img class="icons" src="dashboard.svg" alt="dashboard" />
+          <span class="names">Dashboard</span>
+        </li>
+        <li>
+          <img class="icons" src="tasks2.svg" alt="tasks" />
+          <span class="names item--active tasks">Tasks</span>
+          <ul class="buttons">
+            <li class="active">
+              <img class="active__icon" src="active_circle.svg" alt="active" />
+              <span>Active</span>
+            </li>
+            <li class="completed">
+              <img
+                class="completed__icon"
+                src="completed_circle.svg"
+                alt="completed"
+              />
+              <span>Completed</span>
+            </li>
+            <li class="ended">
+              <img class="ended__icon" src="ended_circle.svg" alt="ended" />
+              <span>Ended</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img class="icons" src="email.svg" alt="email" />
+          <span class="names">Email</span>
+        </li>
+        <li>
+          <img class="icons" src="contacts.svg" alt="contacts" />
+          <span class="names">Contacts</span>
+        </li>
+        <li>
+          <img class="icons" src="chats.svg" alt="chats" />
+          <span class="names">Chat</span>
+        </li>
+        <li class="deals--margin">
+          <img class="icons" src="deals.svg" alt="deals" />
+          <span class="names">Deals</span>
+        </li>
+        <div class="settings-margin">
+          <li class="settings">
+            <span>
+              <img class="icons" src="settings.svg" alt="settings" />
+              <span class="names">Settings</span>
+            </span>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <header class="header">
+      <form action="#" class="search">
+        <img src="search.svg" alt="search" />
+        <input
+          type="text"
+          class="search__input"
+          placeholder="Search for a task"
+        />
+      </form>
+      <img class="bell" src="Vector.svg" alt="Notification-bell" />
+      <span class="bell__notification"></span>
+    </header>
+    <div class="above">
+      <div class="date__type">
+        <p class="date">
+          Date:
+          <span class="today"
+            >Today<img class="arrow" src="Polygon.svg" alt="arrow" />
+          </span>
+        </p>
+
+        <p class="type">
+          Type:
+          <span class="all"
+            >All<img class="arrow" src="Polygon.svg" alt="arrow" />
+          </span>
+        </p>
+      </div>
+
+      <button class="create">Create Task</button>
+    </div>
+    <div class="feature">
+      <div class="grid--container">
+        <div class="first">
+          <div class="left--side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <span class="status">Status</span>
+            <span class="title">Title</span>
+          </div>
+          <div class="right--side">
+            <span class="type">Type</span>
+            <span class="associated">Associated with</span>
+            <span class="due">Due date</span>
+          </div>
+        </div>
+        <div class="div div--1">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="active__button">Active</button>
+            <span class="benefit">Send benefit review by Friday</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Reminder</span>
+            <div class="lindsey">
+              <img class="lindsey__photo" src="lindsey.png" alt="Lindsey" />
+              <span class="lindsey__name">Lindsey Stroud</span>
+            </div>
+            <span class="dec">Dec 14,2018</span>
+          </div>
+        </div>
+        <div class="div div--2">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="ended__button">Ended</button>
+            <span class="benefit">Call to check in</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Call</span>
+            <div class="nicci">
+              <img class="nicci__photo" src="nicci.png" alt="Nicci" />
+              <span class="nicci__name">Nicci Troiani</span>
+            </div>
+            <span class="dec">Dec 14,2018</span>
+          </div>
+        </div>
+        <div class="div div--3">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="completed__button">Completed</button>
+            <span class="benefit">Office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Event</span>
+            <div class="george">
+              <img class="george__photo" src="george.png" alt="George" />
+              <span class="george__name">George Fields</span>
+            </div>
+            <span class="dec">Dec 14,2018</span>
+          </div>
+        </div>
+        <div class="div div--4">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="completed__button">Completed</button>
+            <span class="benefit">Invite to office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Call</span>
+            <div class="george">
+              <img class="george__photo" src="george.png" alt="George" />
+              <span class="george__name">George Fields</span>
+            </div>
+            <span class="dec">Dec 12,2018</span>
+          </div>
+        </div>
+        <div class="div div--5">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="active__button">Active</button>
+            <span class="benefit">Office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Reminder</span>
+            <div class="nicci">
+              <img class="nicci__photo" src="nicci.png" alt="Nicci" />
+              <span class="nicci__name">Nicci Troiani</span>
+            </div>
+            <span class="dec">Dec 11,2018</span>
+          </div>
+        </div>
+        <div class="div div--6">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="ended__button">Ended</button>
+            <span class="benefit">Send benefit review</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Reminder</span>
+            <div class="lindsey">
+              <img class="lindsey__photo" src="lindsey.png" alt="Lindsey" />
+              <span class="lindsey__name">Lindsey Stroud</span>
+            </div>
+            <span class="dec">Dec 10,2018</span>
+          </div>
+        </div>
+        <div class="div div--7">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="active__button">Active</button>
+            <span class="benefit">Call to check in</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Call</span>
+            <div class="lindsey">
+              <img class="lindsey__photo" src="lindsey.png" alt="Lindsey" />
+              <span class="lindsey__name">Lindsey Stroud</span>
+            </div>
+            <span class="dec">Dec 10,2018</span>
+          </div>
+        </div>
+        <div class="div div--8">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="completed__button">Completed</button>
+            <span class="benefit">Office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Event</span>
+            <div class="nicci">
+              <img class="nicci__photo" src="nicci.png" alt="Nicci" />
+              <span class="nicci__name">Nicci Troiani</span>
+            </div>
+            <span class="dec">Dec 9,2018</span>
+          </div>
+        </div>
+        <div class="div div--9">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="ended__button">Ended</button>
+            <span class="benefit">Invite to office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Reminder</span>
+            <div class="george">
+              <img class="george__photo" src="george.png" alt="George" />
+              <span class="george__name">George Fields</span>
+            </div>
+            <span class="dec">Dec 7,2018</span>
+          </div>
+        </div>
+        <div class="div div--10">
+          <div class="left__side">
+            <img class="unchecked" src="unchecked.svg" alt="unchecked" />
+            <button class="ended__button">Ended</button>
+            <span class="benefit">Office meet-up</span>
+          </div>
+          <div class="right__side">
+            <span class="reminder">Call</span>
+            <div class="rebecca">
+              <img class="rebecca__photo" src="rebecca.png" alt="Rebecca" />
+              <span class="rebecca__name">Rebecca Moore</span>
+            </div>
+            <span class="dec">Dec 6,2018</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
